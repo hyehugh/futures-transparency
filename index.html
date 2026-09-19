@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 全品种期货研报系统 · 透明度页</title><style>
+.topnav{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}
+.topnav a{padding:6px 14px;border-radius:6px;text-decoration:none;font-size:14px;
+color:#52514e;background:rgba(127,127,127,.14)}
+.topnav a.on{background:#2c5aa0;color:#fff;font-weight:600}
+.contactbar{margin-top:24px;padding:12px 16px;border-radius:8px;
+background:rgba(127,127,127,.12);border-left:5px solid #2c5aa0;font-size:14px}
+
+body{font-family:'Microsoft YaHei',sans-serif;max-width:860px;margin:0 auto;
+     padding:24px;color:#222;line-height:1.65;background:#fafafa}
+h1{font-size:26px;border-bottom:3px solid #2c5aa0;padding-bottom:8px}
+h2{font-size:19px;margin-top:28px;border-left:4px solid #2c5aa0;padding-left:10px}
+table{border-collapse:collapse;width:100%;margin:12px 0;background:#fff}
+th,td{border:1px solid #ccc;padding:7px 10px;font-size:14px;text-align:center}
+th{background:#2c5aa0;color:#fff}
+.badge{display:inline-block;padding:10px 22px;border-radius:8px;color:#fff;
+       font-size:20px;font-weight:bold}
+.red{background:#c0392b}.green{background:#27ae60}.warn{background:#f39c12}
+.warnbox{background:#fdecea;border-left:5px solid #c0392b;padding:12px 16px;margin:12px 0}
+.note{background:#eef3fa;border-left:5px solid #2c5aa0;padding:12px 16px;margin:12px 0;
+      font-size:14px}
+.foot{margin-top:30px;padding-top:12px;border-top:1px solid #ccc;font-size:12px;color:#777}
+.progress{background:#e5e5e5;border-radius:6px;height:20px;overflow:hidden;margin:8px 0}
+.fill{background:#2c5aa0;height:20px}
+.up{color:#c0392b}.down{color:#27ae60}
+.meta{color:#666;font-size:13px}
+</style></head><body><nav class="topnav"><a href="index.html" class="on">透明度主页</a><a href="squeeze-history.html">挤仓警示史</a></nav>
+<h1>AI 全品种期货研报系统 · 透明度主页</h1>
+<p class="meta">数据时点：2026-09-19 23:48｜覆盖 86 品种 × 日/周/月三频｜本页由系统自动生成，每周随批刷新</p>
+<h2>机械化跟单准入（预约判定 2026-09-11）</h2>
+<p><span class="badge red">红灯 · 禁止跟单</span>&nbsp;&nbsp;我们把自己的系统判了红灯——因为真实 R 结算还没积累到可判定的样本。
+这不是谦辞，是预约标准下的机器判定。</p>
+<table><tr><th>门槛</th><th>标准</th><th>当前</th><th>判定</th></tr><tr><td>G1 样本数</td><td>≥30笔 且 ≥8品种</td><td>31笔/14品种</td><td>通过</td></tr><tr><td>G2 净期望</td><td>≥ +0.1R/笔</td><td>-0.188R</td><td>未过</td></tr><tr><td>G3 毛盈亏比</td><td>≥ 1.15</td><td>0.39</td><td>未过</td></tr><tr><td>G4 显著性</td><td>t ≥ 2.0</td><td>-2.00</td><td>未过</td></tr><tr><td>G5 回撤守卫</td><td>累计>0 且 回撤≥-8.0R</td><td>累计-5.8R/回撤-6.0R</td><td>未过</td></tr></table>
+<h2>三口径实盘命中率（如实，含难看的数字）</h2>
+<table><tr><th>口径</th><th>已结算</th><th>命中率</th><th>说明</th></tr>
+<tr><td>净情绪方向</td><td>99</td><td>56.6%</td>
+    <td>足额组另见周报；薄样本组仅 48.9%（反向，警示已自动缩权）</td></tr>
+<tr><td>主评级方向</td><td>206</td><td>68.9%</td>
+    <td>含震荡自动计对成分，谨慎解读</td></tr>
+<tr><td>点位 R 结算</td><td>31</td><td>—</td>
+    <td>556 笔评估窗成熟中，首笔 2026-09-15 起</td></tr></table>
+<p class="note">我们把不好看的数字原样放着：薄样本组 25% 命中率（反向）是本系统
+自动发现并自动缩权的——衡量一个系统的标准，是它敢不敢公布自己的难看。</p>
+<h2>R 结算进度（准入门槛 G1：≥30 笔）</h2>
+<div class="progress"><div class="fill" style="width:100%"></div></div>
+<p>已结算 31/30 笔 · 待成熟 556 笔 ·
+首笔预计 2026-09-15 起陆续结算（日频窗 7 天到期即自动结算）</p>
+<h2>今日挤仓拥挤警示（实时）</h2>
+<table><tr><th>品种</th><th>期限贴水年化 carry</th><th>横截面分位</th></tr><tr><td>FU</td><td class='up'>+149.8%</td><td>100%</td></tr><tr><td>BU</td><td class='up'>+83.6%</td><td>97%</td></tr><tr><td>EG</td><td class='up'>+79.5%</td><td>94%</td></tr><tr><td>BZ</td><td class='up'>+63.4%</td><td>91%</td></tr><tr><td>JD</td><td class='up'>+55.3%</td><td>88%</td></tr><tr><td>PG</td><td class='up'>+47.2%</td><td>85%</td></tr><tr><td>EB</td><td class='up'>+45.3%</td><td>82%</td></tr><tr><td>PP</td><td class='up'>+37.1%</td><td>79%</td></tr><tr><td>L</td><td class='up'>+28.5%</td><td>76%</td></tr></table>
+<p class="note">触发口径：横截面分位≥85% 或 carry≥+15%。实证出处：2026-09 用 2.7 年
+双合约数据测得深贴水挤仓后均值回归（高 carry 篮月均 -1.95%）。警示含义：<b>禁止追多</b>。</p>
+<h2>挤仓警示史（2024-01 起全历史回填，越用越厚）</h2>
+<table><tr><th>期次</th><th>触发品种</th></tr><tr><td>20260916</td><td>PP,PG,L,JD,FU,EG,EB,BZ,BU</td></tr><tr><td>20260909</td><td>PP,L,JD,FU,EG,EB,BU</td></tr><tr><td>20260902</td><td>PP,L,JD,FU,EG,EB,BU</td></tr><tr><td>20260826</td><td>PP,L,JD,FU,EG,EB,BZ,BU</td></tr><tr><td>20260819</td><td>PP,JD,FU,EG,EB,BZ,BU</td></tr><tr><td>20260812</td><td>WR,PP,L,JD,FU,EG,EB,BZ,BU</td></tr><tr><td>20260805</td><td>WR,PP,PG,L,JM,JD,FU,EG,EB,BZ,BU</td></tr><tr><td>20260729</td><td>WR,PP,L,JD,FU,EG,EB,BZ,BU</td></tr></table>
+<p>累计入榜排行：I×78；FU×77；PG×75；EB×62；JD×55；BU×43；LH×39；WR×38——长期霸榜者即结构性紧供需品种，警示含义始终是
+"追多赔率差"，不是做空信号。</p>
+<h2>预约判定标准（全文）</h2>
+<p class="meta">已 R 结算≥30 笔且≥8 品种、净均≥+0.10R、毛 PF≥1.15、t≥2、累计>0 且回撤≥-8R
+——全过绿灯可跟，任一未过红灯禁止，无中间地带。标准于 2026-09-11（零样本时点）钉死，
+改动必须留痕。绝大多数系统的准入标准是事后写的； ours 是先写的。</p>
+<div class="contactbar">联系邮箱：hyehugh@126.com（合作/定制/订阅意向请邮件）</div><div class="foot">AIGC 生成内容，仅供研究参考，不构成任何投资建议；数据来自公开免费源，可能存在延迟或缺失。期市有风险，入市需谨慎。</div></body></html>

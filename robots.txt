@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /h1_battle_pack.html
+Disallow: /h1_qrcodes/
+Sitemap: https://hyehugh.github.io/futures-transparency/sitemap.xml
